@@ -1,0 +1,52 @@
+
+.fa-paper-plane
+{
+    margin-left: -20px;
+}
+
+#inputbar
+{
+    width: 100%;
+}
+#bottomBar
+{
+    position: absolute;
+    bottom: 0px;
+    padding: 5px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 3em;
+    grid-template-rows: 1;
+}
+#botInput
+{
+    margin: 0px;
+    height: 3em;
+}
+#botSend
+{
+    width: 4em;
+    height: 3em;
+    padding: 0px;
+    border: none;
+    background-color: #009688;
+    color: white;
+}
+#botSend:hover
+{
+    background-color: #009688;
+    color: gainsboro;
+}
+#botInputContainer
+{
+    grid-column: 1;
+    width: auto;
+    float: left;
+    margin: 0px;
+}
+#botSendContainer
+{
+    grid-column: 2;
+    width: 5em;
+    float: right;
+}
