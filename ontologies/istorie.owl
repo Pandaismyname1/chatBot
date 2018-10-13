@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/victormanoliu/ontologies/2018/9/AI-Homework2-Ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/victormanoliu/ontologies/2018/9/AI-Homework2-Ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/victormanoliu/ontologies/2018/9/AI-Homework2-Ontology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="AI-Homework2-Ontology" IRI="http://www.semanticweb.org/victormanoliu/ontologies/2018/9/AI-Homework2-Ontology#"/>
+    <Declaration>
+        <Class IRI="#Al_doilea_razboi_mondial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amiral_General"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antiaerian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Armata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Armata_Romana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artilerie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Batalie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cadru_Forta_Aeriana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cadru_Militar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cadru_Militar_Roman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capitan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capitan_Comandor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comandor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conducere_Armata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contraamiral_de_flotila"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forte_Armate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forte_Armate_Aeriene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forte_Armate_Navale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forte_Armate_Terestre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Locotenent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Maior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_de_brigada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generalll_de_fllotila_aeriana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locotenent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Locotenent_comandor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maresal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persoana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Razboi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sublocotenent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tancuri"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bought"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fought"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gives_orders_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_formed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leads"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#subordinates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#an_incepere_domnie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#an_terminare_domnie"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Al_doilea_razboi_mondial"/>
+        <Class IRI="#Razboi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amiral_General"/>
+        <Class IRI="#Conducere_Armata"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antiaerian"/>
+        <Class IRI="#Forte_Armate_Terestre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Armata_Romana"/>
+        <Class IRI="#Armata"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artilerie"/>
+        <Class IRI="#Forte_Armate_Terestre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cadru_Forta_Aeriana"/>
+        <Class IRI="#Cadru_Militar_Roman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cadru_Militar"/>
+        <Class IRI="#Persoana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cadru_Militar_Roman"/>
+        <Class IRI="#Cadru_Militar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capitan"/>
+        <Class IRI="#Cadru_Militar_Roman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capitan_Comandor"/>
+        <Class IRI="#Capitan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comandor"/>
+        <Class IRI="#Capitan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conducere_Armata"/>
+        <Class IRI="#Cadru_Militar_Roman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contraamiral_de_flotila"/>
+        <Class IRI="#Cadru_Forta_Aeriana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forte_Armate_Aeriene"/>
+        <Class IRI="#Forte_Armate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forte_Armate_Navale"/>
+        <Class IRI="#Forte_Armate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forte_Armate_Terestre"/>
+        <Class IRI="#Forte_Armate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Locotenent"/>
+        <Class IRI="#Conducere_Armata"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Maior"/>
+        <Class IRI="#Conducere_Armata"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_de_brigada"/>
+        <Class IRI="#Cadru_Forta_Aeriana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generalll_de_fllotila_aeriana"/>
+        <Class IRI="#Cadru_Forta_Aeriana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Locotenent"/>
+        <Class IRI="#Cadru_Militar_Roman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Locotenent_comandor"/>
+        <Class IRI="#Locotenent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maresal"/>
+        <Class IRI="#Conducere_Armata"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Razboi"/>
+        <Class IRI="#Batalie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sublocotenent"/>
+        <Class IRI="#Locotenent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tancuri"/>
+        <Class IRI="#Forte_Armate_Terestre"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bought"/>
+        <Class IRI="#Armata_Romana"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fought"/>
+        <Class IRI="#Armata_Romana"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#gives_orders_to"/>
+        <Class IRI="#Capitan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_formed_by"/>
+        <Class IRI="#Armata_Romana"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leads"/>
+        <Class IRI="#Generalll_de_fllotila_aeriana"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leads"/>
+        <Class IRI="#Locotenent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leads"/>
+        <Class IRI="#Maresal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#subordinates"/>
+        <Class IRI="#Cadru_Forta_Aeriana"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#subordinates"/>
+        <Class IRI="#Capitan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#subordinates"/>
+        <Class IRI="#Locotenent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Armata"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Armata_Romana"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bought"/>
+        <Class IRI="#Antiaerian"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fought"/>
+        <Class IRI="#Al_doilea_razboi_mondial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#gives_orders_to"/>
+        <Class IRI="#Locotenent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_formed_by"/>
+        <Class IRI="#Cadru_Militar_Roman"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leads"/>
+        <Class IRI="#Armata_Romana"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leads"/>
+        <Class IRI="#Forte_Armate_Navale"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leads"/>
+        <Class IRI="#Forte_Armate_Terestre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#subordinates"/>
+        <Class IRI="#Conducere_Armata"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Forte_Armate"/>
+    </ObjectPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#an_incepere_domnie"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#an_terminare_domnie"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+

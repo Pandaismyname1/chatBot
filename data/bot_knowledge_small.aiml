@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+	<pattern>HI</pattern>
+	<template>Hello. What is your name ?</template>
+</category>
+
+<category>
+	<pattern>HELLO</pattern>
+	<template>Hello there.What is your name?</template>
+</category>
+
+<category>
+	<pattern>MY NAME IS *</pattern>
+    <template>
+        <condition name="name">
+            <li value="">
+                <set name="name"><star/></set>
+                Nice To meet you, <get name="name"></get>.How about you should tell me your favourite course? </li>
+            <li> But you told me your name was <get name="name"></get>.How about you should tell me your favourite course?</li>
+        </condition>
+    </template>
+</category>
+
+
+<category>
+    <pattern>I LOVE *</pattern>
+    <template>
+        <condition name="fav_course">
+            <li value="">
+                <set name="fav_course"><star/></set>
+                That's really nice,<get name="name"></get>, I also like <get name="fav_course"></get>! What about your most hated course?</li>
+            <li> But you told me your favorite course was <get name="fav_course"></get>, <get name="name"></get>. What about your most hated course?</li>
+        </condition>
+    </template>
+</category>
+
+
+<category>
+    <pattern>MY MOST HATED COURSE IS *</pattern>
+    <template>
+        <condition name="hate_course">
+            <li value="">
+                <set name="hate_course"><star/></set>
+                Owww, that's unfortunate, <get name="name"></get>, I really loved <get name="hate_course"></get>! Who is your coodinating teacher for your bachelor degree?</li>
+            <li>You liar! But you told me your most hated course was <get name="hate_course"></get>, <get name="name"></get>. Who is your coodinating teacher for your bachelor degree?</li>
+        </condition>
+    </template>
+</category>
+<category>
+    <pattern>MY TEACHER IS *</pattern>
+    <template>
+        <condition name="teacher">
+            <li value="">
+                <set name="teacher"><star/></set>
+                Awww, that's lovely, <get name="name"></get>, I also wanted <get name="teacher"></get>as my teacher! What is the course in which you had the greatest grade?</li>
+            <li>You liar! But you told me your coordinating teacher was <get name="teacher"></get>, <get name="name"></get>. What is the course in which you had the greatest grade?</li>
+        </condition>
+    </template>
+</category>
+<category>
+    <pattern>I OBTAINED THE HIGHEST GRADE ON *</pattern>
+    <template>
+        <condition name="max_grade">
+            <li value="">
+                <set name="max_grade"><star/></set>
+                Very nice, <get name="name"></get>, Sadly, i sucked at <get name="max_grade"></get>What is the course in which you had the lowest grade?</li>
+            <li>You liar! But you told me your obtained the highest grade on <get name="max_grade"></get>, <get name="name"></get>. What is the course in which you had the lowest grade?</li>
+        </condition>
+    </template>
+</category>
+
+<category>
+    <pattern>I OBTAINED THE LOWEST GRADE ON *</pattern>
+    <template>
+        <condition name="low_grade">
+            <li value="">
+                <set name="low_grade"><star/></set>
+                Owww, that's really sad <get name="name"></get>, I really enjoyed <get name="low_grade"></get>. </li>
+            <li>You liar! But you told me your obtained the highest grade on <get name="low_grade"></get>, <get name="name"></get>. </li>
+        </condition>
+    </template>
+</category>
+</aiml>

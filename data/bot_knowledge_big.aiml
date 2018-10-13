@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+	<pattern>HI</pattern>
+	<template>Hello. What is your name ?</template>
+</category>
+
+<category>
+	<pattern>HELLO</pattern>
+	<template>Hello there.What is your name?</template>
+</category>
+
+<category>
+	<pattern>My name is *</pattern>
+    <template>
+        <condition name="name">
+            <li value="unknown">
+                <set name="name"><star/></set>
+                Nice To meet you, <get name="name"></get>.How about you should tell me your favourite course? </li>
+            <li> But you told me your name was <get name="name"></get>.How about you should tell me your favourite course?</li>
+        </condition>
+    </template>
+</category>
+	<category><pattern> Iam *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>Ia m *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I ma *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I a m*</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I am* </pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>'Im *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>Im' *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I' m*</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I'm* </pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>yM name is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>M yname is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>Myn ame is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My anme is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My nmae is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My naem is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My nam eis *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My namei s *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My name si *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My name i s*</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My name is* </pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>am *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>Im *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I  *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I a*</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I am</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>m *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I'*</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I'm</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern> name is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>Mname is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>Myame is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My me is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My ne is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My na is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My namis *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My names *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My name  *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My name i*</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My name is</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>Iam *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I m *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I a *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I am*</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I am </pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>Im *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I' *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I'm*</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>I'm </pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>M name is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>Myname is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My ame is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My nme is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My nae is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My nam is *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My nameis *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My name s *</pattern><template><srai>My name is *</srai></template></category>
+	<category><pattern>My name i *</pattern><template><srai>My name is *</srai></template></category>
+
+
+<category>
+    <pattern>My favourite course is *</pattern>
+    <template>
+        <condition name="fav_course">
+            <li value="unknown">
+                <set name="fav_course"><star/></set>
+                That's really nice,<get name="name"></get>, I also like <get name="fav_course"></get>! What about your most hated course?</li>
+            <li> But you told me your favorite course was <get name="fav_course"></get>, <get name="name"></get>. What about your most hated course?</li>
+        </condition>
+    </template>
+</category>
+	<category><pattern> Ilove *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>Il ove *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I olve *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I lvoe *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I loev *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>M yfavourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>Myf avourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My afvourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My fvaourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My faovurite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favuorite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favoruite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favouirte course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourtie course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favouriet course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourit ecourse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favouritec ourse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite ocurse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite cuorse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite coruse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite cousre is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite coures is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite cours eis *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite coursei s *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite course si *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite course i s*</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite course is* </pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>love *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>Iove *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I ve *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I le *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I lo *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I lov*</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I love</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern> favourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>Mfavourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>Myavourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My vourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My fourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My faurite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favrite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favoite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favoute course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favoure course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favouri course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favouritcourse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favouriteourse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite urse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite crse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite cose is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite coue is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite cour is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite coursis *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite courses *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite course i*</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite course is</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>Ilove *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I ove *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I lve *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I loe *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I lov *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I love*</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>I love </pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>M favourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>Myfavourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My avourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My fvourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My faourite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favurite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favorite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favouite course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourte course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourie course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourit course is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favouritecourse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite ourse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite curse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite corse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite couse is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite coure is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite cours is *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite courseis *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite course s *</pattern><template><srai>My favourite course is *</srai></template></category>
+	<category><pattern>My favourite course i *</pattern><template><srai>My favourite course is *</srai></template></category>
+
+
+<category>
+    <pattern>My most hated course is *</pattern>
+    <template>
+        <condition name="hate_course">
+            <li value="unknown">
+                <set name="hate_course"><star/></set>
+                Owww, that's unfortunate, <get name="name"></get>, I really loved <get name="fav_course"></get>! Who is your coodinating teacher for your bachelor degree?</li>
+            <li>You liar! But you told me your most hated course was <get name="fav_course"></get>, <get name="name"></get>. Who is your coodinating teacher for your bachelor degree?</li>
+        </condition>
+    </template>
+</category>
+	<category><pattern> Ihate *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>Ih ate *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I ahte *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I htae *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I haet *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I hat e*</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I hate* </pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>yM most hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>M ymost hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>Mym ost hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My omst hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My msot hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My mots hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My mos thated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My mosth ated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most ahted course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most htaed course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most haetd course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hatde course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hate dcourse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hatedc ourse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated ocurse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated cuorse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated coruse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated cousre is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated coures is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated cours eis *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated coursei s *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated course si *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated course i s*</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated course is* </pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>hate *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>Iate *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I te *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I he *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I ha *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I hat*</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I hate</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern> most hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>Mmost hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>Myost hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My st hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My mt hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My mo hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My moshated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My mostated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most ted course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hed course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most had course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hat course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hatecourse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hatedourse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated urse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated crse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated cose is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated coue is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated cour is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated coursis *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated courses *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated course  *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated course i*</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated course is</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>Ihate *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I ate *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I hte *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I hae *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I hat *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I hate*</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>I hate </pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>M most hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>Mymost hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My ost hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My mst hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My mot hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My mos hated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My mosthated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most ated course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hted course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most haed course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hatd course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hate course is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hatedcourse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated ourse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated curse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated corse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated couse is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated coure is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated cours is *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated courseis *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated course s *</pattern><template><srai>My most hated course is *</srai></template></category>
+	<category><pattern>My most hated course i *</pattern><template><srai>My most hated course is *</srai></template></category>
+
+<category>
+    <pattern>My teacher is *</pattern>
+    <template>
+        <condition name="teacher">
+            <li value="unknown">
+                <set name="teacher"><star/></set>
+                Awww, that's lovely, <get name="name"></get>, I also wanted <get name="teacher"></get>as my teacher! What is the course in which you had the greatest grade?</li>
+            <li>You liar! But you told me your coordinating teacher was <get name="teacher"></get>, <get name="name"></get>. What is the course in which you had the greatest grade?</li>
+        </condition>
+    </template>
+</category>
+	<category><pattern> Ihave *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>Ih ave *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I ahve *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I hvae *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I haev *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I hav e*</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I have* </pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>yM teacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>M yteacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>Myt eacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My etacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My taecher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My tecaher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teahcer is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacehr is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teachre is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teache ris *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacheri s *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacher si *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacher i s*</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacher is* </pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>have *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>Iave *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I ve *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I he *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I ha *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I hav*</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I have</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern> teacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>Mteacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>Myeacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My acher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My tcher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teaer is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacr is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teach is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacheis *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teachers *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacher  *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacher i*</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacher is</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>Ihave *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I ave *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I hve *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I hae *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I hav *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I have*</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>I have </pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>M teacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>Myteacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My eacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My tacher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My techer is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teaher is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacer is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teachr is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teache is *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacheris *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacher s *</pattern><template><srai>My teacher is *</srai></template></category>
+	<category><pattern>My teacher i *</pattern><template><srai>My teacher is *</srai></template></category>
+
+
+<category>
+    <pattern>I obtained the highest grade on *</pattern>
+    <template>
+        <condition name="max_grade">
+            <li value="unknown">
+                <set name="max_grade"><star/></set>
+                Very nice, <get name="name"></get>, Sadly, i sucked at <get name="max_grade"></get>What is the course in which you had the lowest grade?</li>
+            <li>You liar! But you told me your obtained the highest grade on <get name="max_grade"></get>, <get name="name"></get>. What is the course in which you had the lowest grade?</li>
+        </condition>
+    </template>
+</category>
+	<category><pattern> Iwas very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>Iw as very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I aws very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I wsa very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I wa svery good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I wasv ery good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was evry good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was vrey good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was veyr good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was ver ygood at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was veryg ood at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very ogod at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very godo at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very goo dat *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very gooda t *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good ta *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good a t*</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good at* </pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>yM highest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>M yhighest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>Myh ighest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My ihghest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My hgihest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My hihgest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My higehst grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highset grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highets grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highes tgrade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highestg rade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest rgade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest garde was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grdae was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest graed was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grad ewas on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest gradew as on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade aws on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade wsa on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade wa son *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade waso n *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade was no *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade was o n*</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade was on* </pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern> Iobtained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>Io btained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I botained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I otbained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obatined the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtianed the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtanied the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtaiend the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtainde the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtaine dthe highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtainedt he highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained hte highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained teh highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained th ehighest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained theh ighest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the ihghest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the hgihest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the hihgest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the higehst grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highset grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highets grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highes tgrade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highestg rade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest rgade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest garde on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grdae on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest graed on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grad eon *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest gradeo n *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grade no *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grade o n*</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grade on* </pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>was very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>Ias very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I s very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I w very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I wavery good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I wasery good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was ry good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was vy good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was ve good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was vergood at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was veryood at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very od at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very gd at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very go at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very gooat *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very goodt *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good  *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good a*</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good at</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern> highest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>Mhighest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>Myighest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My ghest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My hhest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My hiest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My higst grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My hight grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highe grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highesgrade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highestrade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest ade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest gde was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest gre was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest gra was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest gradwas on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest gradeas on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade s on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade w on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade waon *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade wasn *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade was  *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade was o*</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade was on</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>obtained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>Ibtained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I tained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I oained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obined the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtned the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtaed the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtaid the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtain the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtainethe highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtainedhe highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained e highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained t highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained thhighest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained theighest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the ghest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the hhest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the hiest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the higst grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the hight grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highe grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highesgrade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highestrade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest ade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest gde on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest gre on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest gra on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest gradon *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest graden *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grade  *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grade o*</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grade on</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>Iwas very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I as very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I ws very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I wa very good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I wasvery good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was ery good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was vry good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was vey good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was ver good at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was verygood at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very ood at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very god at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very god at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very goo at *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very goodat *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good t *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good a *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good at*</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I was very good at </pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>M highest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>Myhighest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My ighest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My hghest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My hihest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My higest grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highst grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highet grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highes grade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highestgrade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest rade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest gade was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grde was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grae was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grad was on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest gradewas on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade as on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade ws on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade wa on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade wason *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade was n *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade was o *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade was on*</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>My highest grade was on </pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>Iobtained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I btained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I otained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obained the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtined the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtaned the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtaied the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtaind the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtaine the highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtainedthe highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained he highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained te highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained th highest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained thehighest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the ighest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the hghest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the hihest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the higest grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highst grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highet grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highes grade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highestgrade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest rade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest gade on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grde on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grae on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grad on *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest gradeon *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grade n *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+	<category><pattern>I obtained the highest grade o *</pattern><template><srai>I obtained the highest grade on *</srai></template></category>
+
+
+<category>
+    <pattern>I obtained the lowest grade on *</pattern>
+    <template>
+        <condition name="low_grade">
+            <li value="unknown">
+                <set name="low_grade"><star/></set>
+                Owww, that's really sad <get name="name"></get>, I really enjoyed <get name="low_grade"></get>. </li>
+            <li>You liar! But you told me your obtained the highest grade on <get name="low_grade"></get>, <get name="name"></get>. </li>
+        </condition>
+    </template>
+</category>
+	<category><pattern> Iwas bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>Iw as bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I aws bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I wsa bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I wa sbat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I wasb at at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was abt at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bta at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was ba tat *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bata t *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bat ta *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bat a t*</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bat at* </pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>yM lowest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>M ylowest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>Myl owest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My olwest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lwoest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My loewst grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowset grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowets grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowes tgrade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowestg rade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest rgade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest garde was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grdae was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest graed was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grad ewas on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest gradew as on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade aws on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade wsa on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade wa son *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade waso n *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade was no *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade was o n*</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade was on* </pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern> Iobtained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>Io btained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I botained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I otbained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obatined the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtianed the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtanied the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtaiend the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtainde the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtaine dthe lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtainedt he lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained hte lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained teh lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained th elowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained thel owest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the olwest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lwoest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the loewst grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowset grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowets grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowes tgrade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowestg rade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest rgade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest garde on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grdae on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest graed on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grad eon *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest gradeo n *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grade no *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grade o n*</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grade on* </pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>was bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>Ias bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I s bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I w bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I wabat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I wasat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was t at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was b at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was baat *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was batt *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bat  *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bat a*</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bat at</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern> lowest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>Mlowest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>Myowest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My west grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lost grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowt grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowe grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowesgrade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowestrade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest ade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest gde was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest gre was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest gra was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest gradwas on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest gradeas on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade s on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade w on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade waon *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade wasn *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade was  *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade was o*</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade was on</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>obtained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>Ibtained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I tained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I oained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obined the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtned the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtaed the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtaid the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtain the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtainethe lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtainedhe lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained e lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained t lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained thlowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained theowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the west grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lost grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowt grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowe grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowesgrade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowestrade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest ade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest gde on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest gre on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest gra on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest gradon *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest graden *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grade  *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grade o*</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grade on</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>Iwas bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I as bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I ws bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I wa bat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I wasbat at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was at at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bt at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was ba at *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was batat *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bat t *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bat a *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bat at*</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I was bat at </pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>M lowest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>Mylowest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My owest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lwest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My loest grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowst grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowet grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowes grade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowestgrade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest rade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest gade was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grde was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grae was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grad was on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest gradewas on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade as on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade ws on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade wa on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade wason *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade was n *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade was o *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade was on*</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>My lowest grade was on </pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>Iobtained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I btained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I otained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obained the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtined the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtaned the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtaied the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtaind the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtaine the lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtainedthe lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained he lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained te lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained th lowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained thelowest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the owest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lwest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the loest grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowst grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowet grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowes grade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowestgrade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest rade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest gade on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grde on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grae on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grad on *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest gradeon *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grade n *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	<category><pattern>I obtained the lowest grade o *</pattern><template><srai>I obtained the lowest grade on *</srai></template></category>
+	
+</aiml>
