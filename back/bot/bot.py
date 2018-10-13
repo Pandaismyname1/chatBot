@@ -21,6 +21,7 @@ def loadSession(k, name):
     session = pickle.load(file)
     file.close()
     k._sessions[name] = session
+    print('Loaded session for: '+name)
     return session
 
 
@@ -34,7 +35,7 @@ def auth(k, name):
 
 
 def loadBot(k, path):
-    if path[:-4] == '.brn':
+    if path[-4:] == '.brn':
         k.loadBrain(path)
     else:
         from botGenerator import generateBot
@@ -43,12 +44,12 @@ def loadBot(k, path):
 
 
 if __name__ == '__main__':
-    import owlready2
+    # import owlready2
 
-    onto = owlready2.get_ontology("..\\ontologies\\example.owl")
-    onto.load()
+    # onto = owlready2.get_ontology("..\\ontologies\\example.owl")
+    # onto.load()
 
-    print(onto)
+    # print(onto)
     # ont = pronto.Ontology('..\\ontologies\\istorie.owl')
     # ont = pronto.Ontology('https://protege.stanford.edu/ontologies/pizza/pizza.owl')
 
@@ -74,21 +75,23 @@ if __name__ == '__main__':
     # pprint(obj)
 
 
-    # path = sys.argv[1]
+    path = sys.argv[1]
 
-    # k = aiml.Kernel()
-    # loadBot(k,path)
-    # initialName = ''
-    # while True:
-    #     response = input("> ")
-    #     name = k.getPredicate('name',initialName)
-    #     if response == "quit":
-    #         exit()
-    #     elif response == "save":
-    #         k.saveBrain("..\\bot_brain.brn")
-    #         saveSession(k,name)
-    #     else:
-    #         print(k.respond(response,name))
-    #         name = k.getPredicate('name',name)
-    #         if(name!=initialName):
-    #             auth(k, name)
+    k = aiml.Kernel()
+    loadBot(k,path)
+    initialName = ''
+    while True:
+        response = input("> ")
+        name = k.getPredicate('name',initialName)
+        if response == "quit":
+            exit()
+        elif response == "save":
+            print(k._sessions[name])
+            saveSession(k,name)
+        else:
+            print(k.respond(response,name))
+            name = k.getPredicate('name',name)
+            if(name!=initialName):
+                initialName = name
+                auth(k, name)
+                print('logged in ' + name)
